@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prendre rendez-vous | Optic Alfirdaous</title>
+  <meta name="description" content="Prenez rendez-vous chez Optic Alfirdaous pour un examen de la vue, des lunettes ou des lentilles à Madinat Alfirdous.">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+
+<div class="floating-buttons">
+
+  <!-- WhatsApp (Official look) -->
+  <a href="https://wa.me/212666849903"
+     target="_blank"
+     class="floating-btn whatsapp"
+     aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="white"
+        d="M19.11 17.45c-.28-.14-1.64-.81-1.89-.9-.25-.09-.44-.14-.62.14-.18.28-.71.9-.87 1.09-.16.18-.32.21-.6.07-.28-.14-1.17-.43-2.23-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.35-.02-.5-.07-.14-.62-1.49-.85-2.04-.22-.54-.45-.47-.62-.48l-.53-.01c-.18 0-.46.07-.7.35-.25.28-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.74.14.18 1.85 2.83 4.49 3.97.63.27 1.12.43 1.5.55.63.2 1.21.17 1.67.1.51-.08 1.64-.67 1.87-1.31.23-.64.23-1.19.16-1.31-.07-.11-.25-.18-.53-.32z"/>
+      <path fill="white"
+        d="M16.02 2.9C8.85 2.9 3.02 8.72 3.02 15.9c0 2.5.65 4.94 1.89 7.08L3 29l6.24-1.64c2.06 1.12 4.38 1.71 6.78 1.71 7.17 0 13-5.82 13-13.01S23.19 2.9 16.02 2.9zm0 23.77c-2.16 0-4.28-.58-6.13-1.67l-.44-.26-3.7.97.99-3.6-.29-.46a10.78 10.78 0 01-1.64-5.75c0-6.01 4.89-10.9 10.9-10.9 6.01 0 10.9 4.89 10.9 10.9s-4.89 10.77-10.9 10.77z"/>
+    </svg>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/optique_tamesna/"
+     target="_blank"
+     class="floating-btn instagram"
+     aria-label="Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="white"
+        d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.06 1.8.25 2.22.42.56.22.96.48 1.38.9.42.42.68.82.9 1.38.17.42.36 1.05.42 2.22.07 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.17-.25 1.8-.42 2.22-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.17-1.05.36-2.22.42-1.3.07-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.17-.06-1.8-.25-2.22-.42a3.77 3.77 0 01-2.28-2.28c-.17-.42-.36-1.05-.42-2.22C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.17.25-1.8.42-2.22a3.77 3.77 0 012.28-2.28c.42-.17 1.05-.36 2.22-.42C8.4 2.2 8.8 2.2 12 2.2zm0 3.2a6.6 6.6 0 100 13.2 6.6 6.6 0 000-13.2zm0 10.9a4.3 4.3 0 110-8.6 4.3 4.3 0 010 8.6zm6.86-11.4a1.54 1.54 0 11-3.08 0 1.54 1.54 0 013.08 0z"/>
+    </svg>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/OptiqueTamsna/"
+     target="_blank"
+     class="floating-btn facebook"
+     aria-label="Facebook">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="white"
+        d="M22.7 0H1.3C.6 0 0 .6 0 1.3v21.4C0 23.4.6 24 1.3 24h11.5v-9.3H9.7v-3.6h3.1V8.4c0-3.1 1.9-4.8 4.7-4.8h2.7v3.2h-1.9c-1.5 0-1.8.7-1.8 1.8v2.4h3.6l-.5 3.6h-3.1V24h6.1c.7 0 1.3-.6 1.3-1.3V1.3C24 .6 23.4 0 22.7 0z"/>
+    </svg>
+  </a>
+
+</div>
+
+
+<!-- HEADER -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="nav-left">
+      <img src="static/images/optic_logo.png" alt="Optic Alfirdaous">
+      <span class="brand-text">
+        OPTIQUE<br>
+        <small>Alfirdaous</small>
+      </span>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav class="nav-links" id="navMenu">
+      <a href="index.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="services.html">Nos services</a>
+      <a href="contact.html">Contact</a>
+      <a href="rendez-vous.html" class="active nav-btn">Prendre rendez-vous</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <h1>Prendre rendez-vous</h1>
+      <p>Simple, rapide et sans engagement</p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro">
+    <h2>Planifiez votre visite</h2>
+    <p>Remplissez le formulaire ci-dessous pour demander un rendez-vous. Notre équipe <strong>Optic Alfirdaous</strong> vous contactera rapidement pour confirmer la date et l’heure.</p>
+  </section>
+
+  <!-- FORM -->
+  <section class="appointment-form">
+    <form action="#" method="post" class="form">
+      <div class="form-group">
+        <label for="fullname">Nom complet</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Votre nom complet" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Téléphone</label>
+        <input type="tel" id="phone" name="phone" placeholder="06 XX XX XX XX" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email (optionnel)</label>
+        <input type="email" id="email" name="email" placeholder="Votre email">
+      </div>
+      <div class="form-group">
+        <label for="service">Type de service</label>
+        <select id="service" name="service" required>
+          <option value="">-- Choisir un service --</option>
+          <option value="examen">Examen de la vue</option>
+          <option value="lunettes">Lunettes de vue</option>
+          <option value="solaires">Lunettes solaires</option>
+          <option value="lentilles">Lentilles de contact</option>
+          <option value="conseil">Conseil personnalisé</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Date souhaitée</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Heure souhaitée</label>
+        <input type="time" id="time" name="time">
+      </div>
+      <div class="form-group">
+        <label for="message">Message (optionnel)</label>
+        <textarea id="message" name="message" rows="4" placeholder="Informations complémentaires"></textarea>
+      </div>
+      <button type="submit" class="btn">Envoyer la demande</button>
+    </form>
+  </section>
+
+  <!-- QUICK CONTACT -->
+  <section class="cta">
+    <h2>Besoin d’un rendez-vous rapide ?</h2>
+    <p>Appelez-nous directement au <strong>06 66 84 99 03</strong></p>
+    <a href="tel:+212666849903" class="btn">Appeler maintenant</a>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>Optic Alfirdaous</h3>
+      <p>Votre opticien à Madinat Alfirdous</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+212666849903">📞 06 66 84 99 03</a></li>
+        <li><a href="mailto:contact@opticalfirdaous.com">📧 contact@opticalfirdaous.com</a></li>
+        <li>📍 Q5WC+WG9, Madinat Alfirdous, Maroc</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="services.html">Nos services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="rendez-vous.html">Prendre rendez-vous</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Optic Alfirdaous – Tous droits réservés
+        - Ce site a été développé par www.displaymybusiness.com - 07 94 39 10 752
+    </p>
+  </div>
+</footer>
+
+<!-- MENU MOBILE -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("menuToggle");
+  const menu = document.getElementById("navMenu");
+  if (toggle) {
+    toggle.addEventListener("click", () => menu.classList.toggle("open"));
+  }
+});
+</script>
+</body>
+</html>
